@@ -1,11 +1,11 @@
-# Get Start
+# Get Started
 
 [![CircleCI](https://img.shields.io/circleci/project/github/momentum-design/momentum-ui/master.svg)](https://circleci.com/gh/momentum-design/momentum-ui/)
 [![license](https://img.shields.io/github/license/momentum-design/momentum-ui.svg?color=blueviolet)](https://github.com/momentum-design/momentum-ui/blob/master/charts/LICENSE)
 
 > @momentum-ui/charts/
 
-# Your fisrt Chart
+# Your first Chart
 
 At first, we are going to teach you how to draw a simple line.
 
@@ -22,7 +22,7 @@ Momentum Charts will create a SVG node and append it to a HTML dom. In our tutor
   <div id='app'></div>
 </body>
 ```
-With the following code, Momentum Charts will creat a line chart with the data of an array [10,25,55,65,40]. 
+With the following code, Momentum Charts will create a line chart with the data of an array [10,25,55,65,40]. 
 
 ```
 var data = [10,25,55,65,40];
@@ -72,7 +72,7 @@ var board = MomentumCharts.board('#app', {
 
 #### Shape
 
-All the chart compoents in the Momentum Charts is a subClass of the Shape Class. With these shapes, you can visualize the data inside Board. The first argument of these Shapes is a string which defines the dataUrl it uses. The second arugment configs the generator and the modify object of this shape.
+All the chart components in the Momentum Charts is a subClass of the Shape Class. With these shapes, you can visualize the data inside Board. The first argument of these Shapes is a string which defines the dataUrl it uses. The second argument configs the generator and the modify object of this shape.
 
 
 ```
@@ -94,7 +94,7 @@ board.line({
 });
 ```
 
-#### render
+#### Render
 
 `board.line` only define how to visualize data. The browser will only render the SVG node after you call ```render``` or ```transition```.
 
